@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;500;700;800&family=Poppins:wght@300;400;500;600&display=swap');
+
+.contant {
+    background: url(../../../public/images/image-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    margin-top: -15px;
+}
+
+.context11 {
+    padding-top: 70px;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+
+
+
+.context {
+    margin-right: 750px;
+    text-align: center;
+}
+
+.success {
+    margin-bottom: 30px;
+}
+
+/* button start */
+
+.btn {
+    width: 6.5em;
+    height: 2.3em;
+    margin: 0.5em;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+button:hover {
+    color: black;
+}
+
+button:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+}
+
+button:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+/* button end */
+
+/* ================Media for Mediam screen ================= */
+
+@media (max-width: 912px){
+    .context11 {
+        padding-top: 25px;
+    }
+
+    .context {
+        margin-right: 600px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px){
+    .context11 {
+        padding-top: 50px;
+    }
+
+    .context {
+        margin-right: 450px;
+        text-align: center;
+    }
+    .succc  {
+        margin-top: -30px;
+        
+    }
+    
+}
+@media (max-width: 425px){
+    .context11 {
+        padding-top: 5px;
+        margin-right: -220px;
+    }
+    .context {
+        margin-right: 190px;
+        text-align: center;
+    }
+
+    .success {
+        display: none;
+    }
+   .succc {
+    margin-bottom: 180px;
+   }
+
+      
+}
+
+@media (max-width: 320px){
+    .context11{
+        padding-top: 40px;
+        padding-right: 30px;
+    }
+    .succc{
+        margin-top: 100px;
+    }
+
+    .btn {
+        margin-top: -290px;
+    }
+   
+}
+
+
+
+
+
+/* ================== Media for Mediam screen  =================*/

@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;500;700;800&family=Poppins:wght@300;400;500;600&display=swap');
+
+.main_5 {
+    text-align: center;
+}
+
+.main_5 h1 {
+    margin-top: 40px;
+}
+
+.fontmain {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+
+}
+
+
+.first_part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.one {
+    background: url(../../../public/images/one.png);
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: center;
+    width: 350px;
+    text-align: center;
+
+}
+
+.one h4 {
+    margin-top: 75px;
+}
+
+.one h5 {
+    margin-top: 50px;
+}
+
+.two {
+    background: url(../../../public/images/two..png);
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: center;
+    width: 350px;
+}
+
+.two h4 {
+    margin-top: 75px;
+
+}
+
+.two h5 {
+    margin-top: 50px;
+}
+
+.three {
+    background: url(../../../public/images/three.png);
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: center;
+    width: 350px;
+}
+
+.three h4 {
+    margin-top: 75px;
+
+}
+
+.three h5 {
+    margin-top: 50px;
+}
+
+.four {
+    background: url(../../../public/images/four.png);
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: center;
+    width: 350px;
+}
+
+.four h4 {
+    margin-top: 75px;
+
+}
+
+.four h5 {
+    margin-top: 50px;
+}
+
+.five {
+    background: url(../../../public/images/five.png);
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: center;
+    width: 350px;
+}
+
+.five h4 {
+    margin-top: 75px;
+
+}
+
+.five h5 {
+    margin-top: 50px;
+}
+
+.six {
+    background: url(../../../public/images/six.png);
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: center;
+    width: 350px;
+}
+
+.six h4 {
+    margin-top: 75px;
+
+}
+
+.six h5 {
+    margin-top: 50px;
+}
+
+@media (max-width: 425px) {
+    
+
+    .one h5 {
+        margin-top: 23px;
+    }
+
+
+}
+
+@media (max-width: 320px) {
+    
+    .two h4 {
+        margin-bottom: -25px;
+    }
+
+}

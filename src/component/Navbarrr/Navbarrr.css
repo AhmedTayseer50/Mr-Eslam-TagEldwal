@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;500;700;800&family=Poppins:wght@300;400;500;600&display=swap');
+
+
+.main_0 {
+    background-color: blue;
+
+}
+
+.navstyle {
+    color: black;
+    text-decoration: none;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+.second1 {
+    color: black;
+    text-decoration: none;
+}
+
+.home1 {
+    color: black;
+    text-decoration: none;
+    margin: 8px;
+}
+
+/* logo start */
+.logo_img1 {
+    width: 40px;
+    height: 40px;
+}
+
+.logo-div1 {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.logoname1 {
+    margin-left: 10px;
+    margin-top: 8px;
+    font-family: 'Noto Kufi Arabic', sans-serif;
+
+}
+
+.logoname1 h4 {
+    color: black;
+}
+
+/* logo end */

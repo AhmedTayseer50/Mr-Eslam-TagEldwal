@@ -1,0 +1,327 @@
+.parttt201 {
+    background: url(../../../public/images/background102.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+    margin-top: -15px;
+
+}
+
+.parttt202 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon111 {
+    font-size: 30px;
+    margin-left: 183px;
+    color: white;
+}
+
+.parttt203 {
+    width: 400px;
+    margin-top: 60px;
+
+}
+
+.parttt203 p {
+    text-align: center;
+}
+
+.parttt203 h2 {
+    text-align: center;
+    color: white;
+}
+
+.parttt203 h4 {
+    color: white;
+    text-align: center;
+}
+
+.formA10 {
+    width: 500px;
+    color: white;
+}
+
+.formA10 form {
+    text-align: right;
+}
+
+.forma10 input {
+    margin-bottom: 20px;
+}
+
+.formA10 textarea {
+    margin-bottom: 20px;
+    text-align: right;
+    border: none;
+    outline: none;
+}
+
+.pargAB {
+    margin-top: -18px;
+}
+
+
+
+form label input:focus {
+    outline: none;
+}
+
+form label input:-webkit-autofill {
+    background-color: transparent !important;
+}
+
+form label span.label-text10 {
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    padding-left: 0.5em;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+    text-align: right;
+}
+
+form label.invalid span.label-text10 {
+    color: #c0392b;
+
+}
+
+
+/* ---------------jfjfj------------------ */
+
+form label {
+    border-bottom: 1px solid #333;
+    display: block;
+    font-size: 1.25em;
+    margin-bottom: 0.5em;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+}
+
+form label.col-one-half_1 {
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+
+form label input,
+select {
+    background: none;
+    /* border: none; */
+    line-height: 1em;
+    font-weight: 300;
+    padding: 0.125em 0.25em;
+    width: 100%;
+}
+
+select {
+    text-align: right;
+    border: 0px;
+    outline: 0px;
+    color: white;
+}
+
+form label input:focus {
+    outline: none;
+}
+
+
+form label input:-webkit-autofill {
+    background-color: transparent !important;
+}
+
+
+input {
+    text-align: right;
+    color: white;
+
+}
+
+.num10 {
+    margin-right: 10px;
+}
+
+
+form label.invalid {
+    border-color: #c0392b !important;
+}
+
+form label.invalid span.label-text {
+    color: #c0392b;
+
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0 0 0.5em 0;
+    text-align: center;
+    font-family: 'Cookie', cursive;
+}
+
+
+
+
+
+.text-center11 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+option {
+    background-color: #8d8c88;
+}
+
+
+/* button start */
+
+.btttn {
+    width: 6.5em;
+    height: 2.3em;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    margin-top: -30px;
+    margin-right: 180px;
+}
+
+.btttn:hover {
+    color: black;
+}
+
+.btttn:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+}
+
+.btttn:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+/* button end */
+
+.linkpp p {
+    color: white;
+}
+
+.upp {
+    margin-top: 40px;
+}
+
+@media (max-width: 912px) {
+    .icon111 {
+        margin-left: 90px;
+    }
+}
+
+@media (max-width: 425px) {
+    .parttt203 h2 {
+        padding-top: 40px;
+    }
+    .parttt202 {
+        display: block;
+    }
+
+    .formA10 {
+        width: 400px;
+    }
+
+    .parttt201 {
+        margin-top: -60px;
+        height: 1150px;
+    }
+
+    .text {
+        width: 400px;
+    }
+
+    .icon111 {
+        margin-left: 185px;
+    }
+
+    .butt {
+        margin-left: 130px;
+    }
+}
+
+@media (max-width: 375px) {
+    .parttt203 h2 {
+        margin-right: 50px;
+    }
+    .parttt203 h4 {
+        margin-right: 50px;
+    }
+
+    .formA10 {
+        width: 350px;
+    }
+
+    .parttt201 {
+        margin-top: -60px;
+        height: 1150px;
+    }
+
+    .text {
+        width: 350px;
+    }
+
+    .icon111 {
+        margin-left: 145px;
+    }
+
+    .butt {
+        margin-left: 110px;
+    }
+
+    .mob {
+        margin-top: 25px;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .parttt203 h2 {
+        margin-right: 100px;
+    }
+    .parttt203 h4 {
+        margin-right: 100px;
+    }
+
+    .formA10 {
+        width: 300px;
+    }
+
+    .parttt201 {
+        margin-top: -60px;
+        height: 1150px;
+    }
+
+    .text {
+        width: 300px;
+    }
+
+    
+
+    .butt {
+        margin-left: 80px;
+    }
+
+}

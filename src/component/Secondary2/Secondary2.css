@@ -1,0 +1,489 @@
+.section1 {
+    background: url(../../../public/images/خلفيات/brown-wood-.jpg) center no-repeat;
+    background-size: cover;
+    height: 650px;
+    margin-top: -20px;
+}
+
+.section101 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imag_101 {
+    width: 600px;
+    height: 500px;
+    margin-top: 70px;
+}
+
+.father {
+    position: relative;
+}
+
+.son160 {
+    position: absolute;
+    top: 37.5%;
+    left: 36%;
+}
+
+.son260 {
+    position: absolute;
+    top: 51.5%;
+    left: 32%;
+    width: 220px;
+    text-align: center;
+    color: black;
+}
+
+
+
+.chapter1 {
+    text-align: center;
+    width: 500px;
+    margin-top: 70px;
+    box-shadow: 0 0 10px;
+    padding: 50px 0px 50px;
+    margin-left: 20px;
+    color: white;
+}
+
+/* =================    ============================= */
+
+.section202 {
+    background: url(../../../public/images/خلفيات/wood.jpg) center no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-top: -20px;
+}
+
+.chapter101 {
+    text-align: center;
+    width: 500px;
+    margin-top: 70px;
+    box-shadow: 0 0 10px black;
+    padding: 50px 0px 50px;
+    margin-left: 20px;
+    color: white;
+}
+
+.father201 {
+    color: white;
+    margin-top: 60px;
+}
+
+
+.father301 {
+    position: relative;
+    margin-top: 10px;
+}
+
+.son101 {
+    position: absolute;
+    top: 43%;
+    left: 38%;
+}
+
+.son201 {
+    position: absolute;
+    top: 52.5%;
+    left: 33%;
+    width: 220px;
+    text-align: center;
+    color: black;
+}
+
+.imag_105 {
+    width: 600px;
+    height: 500px;
+}
+
+/* ========================  =========================== */
+
+.section203 {
+    background: url(../../../public/images/خلفيات/brown-wood-.jpg) center no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-top: -25px;
+}
+
+.break1 {
+    background: url(../../../public/images/خلفيات/brown-wood-.jpg) center no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.chapter10A {
+    text-align: center;
+    width: 500px;
+    margin-top: 70px;
+    box-shadow: 0 0 10px black;
+    padding: 50px 0px 50px;
+    margin-left: 20px;
+    color: white;
+}
+
+.father20A {
+    color: white;
+    margin-top: 60px;
+}
+
+
+.father302 {
+    position: relative;
+    margin-top: 10px;
+}
+
+.sonA {
+    position: absolute;
+    top: 43%;
+    left: 38%;
+}
+
+.sonB {
+    position: absolute;
+    top: 52.5%;
+    left: 33%;
+    width: 220px;
+    text-align: center;
+    color: black;
+}
+
+.imag_205 {
+    width: 600px;
+    height: 500px;
+}
+
+/* ======================  ============================== */
+
+.section213 {
+    background: url(../../../public/images/خلفيات/wood.jpg) center no-repeat;
+    background-size: cover;
+    height: 510px;
+    margin-top: -20px;
+}
+
+.chapter10A1 {
+    text-align: center;
+    width: 500px;
+    margin-top: 70px;
+    box-shadow: 0 0 10px black;
+    padding: 50px 0px 50px;
+    margin-left: 20px;
+    color: white;
+}
+
+.father20A1 {
+    color: white;
+    margin-top: 60px;
+}
+
+
+.father312 {
+    position: relative;
+    margin-top: 10px;
+}
+
+.sonA1 {
+    position: absolute;
+    top: 42%;
+    left: 38%;
+}
+
+.sonB1 {
+    position: absolute;
+    top: 54%;
+    left: 33%;
+    width: 220px;
+    text-align: center;
+    color: black;
+}
+
+.imag_215 {
+    width: 600px;
+    height: 500px;
+}
+
+
+@media (max-width: 912px) {
+
+    .section101 {
+        display: block;
+    }
+
+    .section1 {
+        height: 1200px;
+    }
+
+    .section202 {
+        height: 850px;
+    }
+
+    .section203 {
+        height: 850px;
+    }
+
+    .section213 {
+        height: 850px;
+    }
+
+    .son160 {
+        position: absolute;
+        top: 51%;
+        left: 32%;
+    }
+
+    .son260 {
+        position: absolute;
+        top: 62%;
+        left: 28%;
+    }
+
+    .son101 {
+        position: absolute;
+        top: 52.5%;
+        left: 33%;
+    }
+
+    .son201 {
+        position: absolute;
+        top: 63.5%;
+        left: 29%;
+    }
+
+    .sonA {
+        position: absolute;
+        top: 52.5%;
+        left: 33%;
+    }
+
+    .sonB {
+        position: absolute;
+        top: 64%;
+        left: 29%;
+    }
+
+    .sonA1 {
+        position: absolute;
+        top: 52.5%;
+        left: 33%;
+    }
+
+    .sonB1 {
+        position: absolute;
+        top: 65%;
+        left: 29%;
+
+    }
+
+}
+
+@media (max-width: 425px) {
+    .imag_101 {
+        width: 410px;
+        height: 400px;
+    }
+
+    .chapter1 {
+        width: 350px;
+    }
+
+    .chapter10 {
+        width: 350px;
+    }
+
+    .chapter101 {
+        width: 350px;
+    }
+
+    .imag_105 {
+        width: 410px;
+        height: 400px;
+    }
+
+    .imag_205 {
+        width: 410px;
+        height: 400px;
+    }
+
+    .imag_215 {
+        width: 410px;
+        height: 400px;
+    }
+
+    .chapter101 {
+        width: 350px;
+    }
+
+    .chapter10A {
+        width: 350px;
+    }
+
+    .chapter10A1 {
+        width: 350px;
+    }
+
+    .son160 {
+        position: absolute;
+        top: 52%;
+        left: 34%;
+    }
+
+    .son260 {
+        position: absolute;
+        top: 62.5%;
+        left: 25%;
+    }
+
+    .son101 {
+        position: absolute;
+        top: 51%;
+        left: 34%;
+    }
+
+    .son201 {
+        position: absolute;
+        top: 63.5%;
+        left: 24%;
+    }
+
+    .sonA {
+        position: absolute;
+        top: 47%;
+        left: 34%;
+    }
+
+    .sonB {
+        position: absolute;
+        top: 59%;
+        left: 25%;
+    }
+
+    .sonA1 {
+        position: absolute;
+        top: 52.5%;
+        left: 35%;
+    }
+
+    .sonB1 {
+        position: absolute;
+        top: 65%;
+        left: 26%;
+    }
+}
+
+@media (max-width: 375px) {
+    .imag_101 {
+        width: 365px;
+
+    }
+    .chapter1 {
+        width: 300px;
+    }
+
+    .son101 {
+        left: 39%;
+    }
+
+    .son201 {
+        left: 27%;
+    }
+    .chapter101 {
+        width: 300px;
+    }
+
+    .imag_205 {
+        width: 355px;
+
+    }
+
+    .sonB {
+        top: 59.5%;
+        left: 22%;
+    }
+    .chapter10A {
+        width: 300px;
+    }
+
+    .chapter10A1 {
+        width: 300px;
+    }
+    .imag_215 {
+        width: 370px;
+
+    }
+    
+}
+
+@media (max-width: 320px) {
+    .imag_101 {
+        width: 300px;
+
+    }
+    
+    .imag_105 {
+        width: 300px;
+    }
+    .chapter1 {
+        width: 270px;
+    }
+
+    .son101 {
+        left: 30%;
+    }
+
+    .son201 {
+        left: 15%;
+    }
+    .chapter101 {
+        width: 270px;
+    }
+
+    .imag_205 {
+        width: 300px;
+
+    }
+
+    .sonA {
+        left: 30.5%;
+        top: 47.5%;
+    }
+
+    .sonB {
+        left: 15%;
+    }
+    .chapter10A {
+        width: 270px;
+    }
+
+    .chapter10A1 {
+        width: 270px;
+    }
+    .imag_215 {
+        width: 300px;
+
+    }
+
+    .son160 {
+        top: 52%;
+        left: 30%;
+    }
+    
+    .son260 {
+        top: 62.5%;
+        left: 15%;
+    }
+
+    .sonA1 {
+        top: 53%;
+        left: 30%;
+    }
+
+    .sonB1 {
+        left: 15%;
+    }
+
+    .chapter10 {
+        width: 250px;
+    }
+    
+}

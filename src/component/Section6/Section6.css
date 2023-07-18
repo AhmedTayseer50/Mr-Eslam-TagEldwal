@@ -1,0 +1,345 @@
+.part201 {
+    background: url(../../../public/images/background102.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+}
+
+.part202 {
+    display: flex;
+    justify-content: space-between;
+   
+}
+.upp {
+    margin-top: 40px;
+}
+
+.icon1 {
+    font-size: 30px;
+    margin-left: 183px;
+    color: white;
+}
+
+.linkpp p{
+    color: white;
+}
+
+.part203 {
+    width: 400px;
+    margin-top: 60px;
+    margin-left: 80px;
+    color: white;
+}
+
+.part203 h2{
+    text-align: center;
+}
+
+
+.part203 h4{
+    text-align: center;
+    
+}
+
+.part203 p{
+    text-align: center;
+}
+
+.form10 {
+    width: 500px;
+    color: white;
+}
+
+.form10 form {
+    text-align: right;
+}
+
+.form10 input {
+    margin-bottom: 20px;
+}
+
+.form10 textarea {
+    margin-bottom: 20px;
+    text-align: right;
+    border: none;
+    outline: none;
+}
+
+.parg1 {
+    margin-bottom: 50px;
+}
+
+
+.parg {
+    margin-top: -18px;
+}
+
+
+
+form label input:focus {
+    outline: none;
+}
+
+form label input:-webkit-autofill {
+    background-color: transparent !important;
+}
+
+form label span.label-text {
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    padding-left: 0.5em;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+    text-align: right;
+}
+
+form label.invalid span.label-text {
+    color: #c0392b;
+
+}
+
+
+/* ---------------jfjfj------------------ */
+
+form label {
+    border-bottom: 1px solid #333;
+    display: block;
+    font-size: 1.25em;
+    margin-bottom: 0.5em;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+}
+
+form label.col-one-half {
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+
+form label input,
+select {
+    background: none;
+    /* border: none; */
+    line-height: 1em;
+    font-weight: 300;
+    padding: 0.125em 0.25em;
+    width: 100%;
+}
+
+select {
+    text-align: right;
+    border: 0px;
+    outline: 0px;
+    color: white;
+}
+
+form label input:focus {
+    outline: none;
+}
+
+
+form label input:-webkit-autofill {
+    background-color: transparent !important;
+}
+
+
+input {
+    text-align: right;
+    color: white;
+    
+}
+
+.num {
+    margin-right: 10px;
+}
+
+
+form label.invalid {
+    border-color: #c0392b !important;
+}
+
+form label.invalid span.label-text {
+    color: #c0392b;
+
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0 0 0.5em 0;
+    text-align: center;
+    font-family: 'Cookie', cursive;
+}
+
+
+.text-center1 {
+    text-align: center;
+}
+
+
+.text-center {
+    text-align: center;
+    margin-top: 40px;
+}
+
+option {
+    background-color: #8d8c88;
+}
+
+/* button start */
+
+.btttn {
+    width: 6.5em;
+    height: 2.3em;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    margin-top: -30px;
+    margin-right: 180px;
+}
+
+.btttn:hover {
+    color: black;
+}
+
+.btttn:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+}
+
+.btttn:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+/* button end */
+
+
+/* ================Media for Mediam screen ================= */
+
+
+@media (max-width: 912px){
+    .part203 h2{
+       margin-top: -10px;
+    }
+    .part203 {
+        margin-left: 10px;
+    }
+    .icon1 {
+        margin-left: 105px;
+    }
+    .phon {
+        margin-top: 10px;
+    }
+    .form10 {
+       margin-right: -40px;
+    }
+}
+@media (max-width: 768px){
+    .form10 {
+        margin-right: -20px;
+     }
+}
+
+@media (max-width: 425px){
+    .part201 {
+        height: 1180px;
+    }
+    .part202 {
+        display: block;
+        margin-top: -60px;
+    }
+
+    .form10 {
+        width: 400px;
+    }
+    .icon1 {
+        margin-left: 183px;
+    }
+    .text {
+        width: 400px;
+    }
+    .butomm {
+        margin-left: 130px;
+    }
+    .form10 {
+        width: 355px;
+    }
+    .butomm {
+        margin-left: 130px;
+    }
+
+    .text {
+        width: 355px;
+    }
+   
+}
+
+
+
+@media (max-width: 375px){
+
+    .part203 h2{
+        margin-right: 90px;
+    }
+
+    .part203 h4 {
+        margin-right: 90px;
+    }
+    .form10 {
+        width: 355px;
+    }
+    .butomm {
+        margin-left: 130px;
+    }
+
+    .text {
+        width: 355px;
+    }
+    
+    .linkpp {
+        margin-right: 80px;
+    }
+    .icon1 {
+        margin-left: 145px;
+    }  
+}
+
+@media (max-width: 320px){
+
+   .form10 {
+    width: 300px;
+   }
+   .n1{
+    margin-bottom: 25px;
+   }
+   .text {
+    width: 300px;
+   }
+   .butomm {
+    margin-left: 90px;
+   }
+}
+
+
+
+
+
+/* ================== Media for Mediam screen  =================*/

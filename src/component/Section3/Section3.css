@@ -1,0 +1,170 @@
+.back1 {
+    margin-top: 80px;
+    background: url(../../../public/images/back_1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+}
+
+.back2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.space {
+    margin-bottom: 40px;
+}
+
+.sec1 {
+    position: relative;
+}
+
+.sec2 {
+    position: absolute;
+    top: 94px;
+    left: 76px;
+}
+
+
+.sec1 img {
+    position: relative;
+    width: 350px;
+    margin-left: 80px;
+    margin-top: 20px;
+} 
+
+.sec2 img {
+    width: 201px;
+    border-radius: 50%;
+    height: 272px;
+
+}
+
+.check {
+    display: flex;
+    align-items: center;
+}
+
+.check10 {
+    display: flex;
+}
+
+.check1 {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.text10 {
+    width: 700px;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.check101 {
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.check1001 {
+    margin-left: 10px;
+    margin-bottom: 29px;
+    font-size: 20px;
+}
+
+.lef {
+    margin-left: 38px;
+}
+
+.lef1 {
+    margin-left: 145px;
+}
+
+/* ================Media for Mediam screen ================= */
+
+@media (max-width: 912px) {
+    .sec1 {
+        margin-left: -150px;
+    }
+
+    .text10 {
+        margin-right: -40px;
+    }
+
+    .check1 {
+        margin-top: -22px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sec1 {
+        margin-left: -130px;
+    }
+
+    .text10 {
+        margin-right: -20px;
+    }
+}
+
+@media (max-width: 425px) {
+    .sec1 {
+        margin-left: -60px;
+    }
+    .back2 {
+        display: block;
+    }
+
+    .back1 {
+        height: 1000px;
+    }
+
+    .text10 {
+        width: 400px;
+        text-align: right;
+        margin-top: 20px;
+    }
+
+}
+
+@media (max-width: 375px) {
+    
+    .text10 {
+        width: 360px;
+        
+    }
+    .back1 {
+        height: 1050px;
+    }
+
+    .check1 {
+        margin-top: -50px;
+    }
+    .lef1 {
+        margin-left: 0px;
+    }
+    .ch2 {
+        margin-top: -28px;
+        font-size: 20px !important;
+    }
+}
+
+@media (max-width: 320px) {
+    .back1 {
+        height: 1100px;
+    }
+    .sec1 {
+        margin-left: -110px;
+    }
+
+    .text10 {
+        margin-left: -10px;
+        width: 300px;
+    }
+
+}
+
+
+
+
+/* ================== Media for Mediam screen  =================*/

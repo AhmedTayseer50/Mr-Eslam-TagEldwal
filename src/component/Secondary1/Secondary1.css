@@ -1,0 +1,368 @@
+.section1 {
+    background: url(../../../public/images/خلفيات/brown-wood-.jpg) center no-repeat;
+    background-size: cover;
+    height: 650px;
+    margin-top: -20px;
+}
+
+.section101 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imag_101 {
+    width: 600px;
+    height: 450px;
+    margin-top: 70px;
+}
+
+.father {
+    position: relative;
+}
+
+.son1 {
+    position: absolute;
+    top: 39%;
+    left: 35%;
+}
+
+.son2 {
+    position: absolute;
+    top: 51.5%;
+    left: 28%;
+    width: 220px;
+    color: black;
+}
+
+.son3 {
+    position: absolute;
+    top: 59.5%;
+    left: 28%;
+    width: 220px;
+    text-align: center;
+    color: black;
+}
+
+.chapter1 {
+    text-align: center;
+    width: 500px;
+    margin-top: 70px;
+    box-shadow: 0 0 10px;
+    padding: 50px 0px 50px;
+    margin-left: 20px;
+    color: white;
+}
+
+
+
+
+/* ====================== Section2 ===================== */
+
+.section2 {
+    background: url(../../../public/images/خلفيات/texture.jpg) center no-repeat;
+    background-size: cover;
+    height: 950px;
+    margin-top: -20px;
+}
+
+.chapter10 {
+    text-align: center;
+    width: 500px;
+    margin-top: 70px;
+    box-shadow: 0 0 10px;
+    padding: 50px 0px 50px;
+    margin-left: 20px;
+    color: white;
+}
+
+.father2 {
+    color: white;
+}
+
+
+.father3 {
+    position: relative;
+    margin-top: 160px;
+}
+
+.son10 {
+    position: absolute;
+    top: 30.5%;
+    left: 35%;
+}
+
+.son20 {
+    position: absolute;
+    top: 40%;
+    left: 28%;
+    width: 220px;
+    text-align: center;
+    color: black;
+}
+
+
+/* ====================== Section2 ===================== */
+
+.chapter101 {
+    text-align: center;
+    width: 600px;
+    margin-top: 70px;
+    box-shadow: 0 0 10px black;
+    padding: 50px 0px 50px;
+    margin-top: 0px;
+    color: white
+}
+
+.semester2 {
+    background: url(../../../public/images/خلفيات/wood.jpg) center no-repeat;
+    background-size: cover;
+    color: black;
+    height: 500px;
+}
+
+.hed1 {
+    padding-top: 30px;
+    color: white;
+}
+
+/* ==================     =============================== */
+
+.father105 {
+    position: relative;
+}
+
+.son105 {
+    position: absolute;
+    top: 38%;
+    left: 35%;
+}
+
+.son205 {
+    position: absolute;
+    top: 53%;
+    left: 28%;
+    width: 220px;
+    text-align: center;
+    color: black;
+}
+
+
+/* ==============  ====================== */
+
+.section106 {
+    background: url(../../../public/images/خلفيات/dark-brown-wood.jpg) center no-repeat;
+    background-size: cover;
+    height: 650px;
+    margin-top: -20px;
+}
+
+
+.father106 {
+    position: relative;
+}
+
+.son106 {
+    position: absolute;
+    top: 38%;
+    left: 35%;
+}
+
+.son206 {
+    position: absolute;
+    top: 53%;
+    left: 28%;
+    width: 220px;
+    text-align: center;
+    color: black;
+}
+
+.son306 {
+    position: absolute;
+    top: 60%;
+    left: 28%;
+    width: 220px;
+    text-align: center;
+    color: black;
+}
+
+
+@media (max-width: 912px) {
+
+    .section101 {
+        display: block;
+    }
+
+    .section1 {
+        height: 1200px;
+    }
+
+    .section2 {
+        height: 1500px;
+        margin-top: -160px;
+    }
+
+    .section106 {
+        height: 1170px;
+    }
+
+    .son10 {
+        position: absolute;
+        top: 50.5%;
+        left: 35%;
+    }
+
+    .son20 {
+        position: absolute;
+        top: 62%;
+        left: 28%;
+    }
+
+    .son105 {
+        position: absolute;
+        top: 49.5%;
+        left: 32%;
+    }
+
+    .son205 {
+        top: 63.5%;
+        left: 26%;
+    }
+
+    .son106 {
+        top: 50%;
+        left: 35%;
+    }
+
+    .son206 {
+        top: 63.5%;
+        left: 28%;
+    }
+
+    .son306 {
+        top: 70.5%;
+        left: 28%;
+    }
+}
+
+@media (max-width: 425px) {
+    .imag_101 {
+        width: 410px;
+        height: 400px;
+    }
+
+    .chapter1 {
+        width: 350px;
+    }
+
+    .chapter10 {
+        width: 350px;
+    }
+
+    .chapter101 {
+        width: 350px;
+    }
+
+    .son1 {
+        position: absolute;
+        top: 39%;
+        left: 35%;
+    }
+
+    .son2 {
+        position: absolute;
+        top: 51%;
+        left: 25.5%;
+    }
+
+    .son3 {
+        position: absolute;
+        top: 59%;
+        left: 20%;
+    }
+
+    .son10 {
+        top: 51.5%;
+        left: 33%;
+    }
+
+    .son20 {
+        top: 66.5%;
+        left: 22%;
+    }
+
+    .son105 {
+        top: 50%;
+        left: 32%;
+    }
+
+    .son205 {
+        top: 64%;
+        left: 22%;
+    }
+
+    .son206 {
+        position: absolute;
+        top: 64%;
+        left: 20%;
+    }
+
+    .son306 {
+        position: absolute;
+        top: 71%;
+        left: 22%;
+    }
+}
+
+@media (max-width: 320px) {
+    .son1 {
+        top: 39.5%;
+        left: 30%;
+    }
+    
+    .son2 {
+        top: 53%;
+        left: 28%;
+        font-size: 15px;
+        
+    }
+    
+    .son3 {
+        top: 60.5%;
+        left: 10%;
+        font-size: 15px;
+    }
+
+    .son10 {
+        top: 51.5%;
+        left: 30%;
+    }
+
+    .son20 {
+        top: 66.5%;
+        left: 10%;
+    }
+    .son105 {
+        left: 28%;
+    }
+
+    .son205 {
+        top: 64.5%;
+        left: 10%;
+    }
+    .son106 {
+        left: 29%;
+    }
+
+    .son206 {
+        top: 62.5%;
+        left: 10%;
+        font-size: 15px;
+    }
+
+    .son306 {
+        top: 69%;
+        left: 10%;
+        font-size: 15px;
+    }
+
+}
