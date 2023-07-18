@@ -59,7 +59,7 @@ const Section6 = () => {
                         <div>
                             <label class="col-one-half">
                                 <span class="label-text num n1">رقم هاتف بديل</span>
-                                <input type="text" name="mobile_two" />
+                                <input type="text" name="mobile_two" className='n2' />
                             </label>
                             <label class="col-one-half">
                                 <span class="label-text">(whatsapp) رقم الهاتف</span>
@@ -73,8 +73,8 @@ const Section6 = () => {
                                 <input type="text" name="area" />
                             </label>
                             <label class="col-one-half">
-                                <span class="label-text">المحافظة</span>
-                                <input type="text" name="governorate" />
+                                <span class="label-text"  >المحافظة</span>
+                                <input type="text"  name="governorate" />
                             </label>
                         </div>
                         <div>

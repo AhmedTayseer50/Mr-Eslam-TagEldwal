@@ -226,13 +226,13 @@ option {
     margin-top: 40px;
 }
 
-@media (max-width: 912px) {
+/* @media (max-width: 912px) {
     .icon111 {
         margin-left: 90px;
     }
-}
+} */
 
-@media (max-width: 425px) {
+/* @media (max-width: 425px) {
     .parttt203 h2 {
         padding-top: 40px;
     }
@@ -260,9 +260,9 @@ option {
     .butt {
         margin-left: 130px;
     }
-}
+} */
 
-@media (max-width: 375px) {
+/* @media (max-width: 375px) {
     .parttt203 h2 {
         margin-right: 50px;
     }
@@ -294,10 +294,10 @@ option {
     .mob {
         margin-top: 25px;
     }
-}
+} */
 
 
-@media (max-width: 375px) {
+/* @media (max-width: 375px) {
     .parttt203 h2 {
         margin-right: 100px;
     }
@@ -324,4 +324,5 @@ option {
         margin-left: 80px;
     }
 
-}
+} */
+

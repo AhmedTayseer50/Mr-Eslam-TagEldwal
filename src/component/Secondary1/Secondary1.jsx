@@ -34,6 +34,8 @@ const Secondary1 = () => {
         </div>
       </div>
 
+
+
       <div className='section2'>
         <div className='container section101'>
 
@@ -66,6 +68,8 @@ const Secondary1 = () => {
         </div>
       </div>
 
+
+
       <div className='semester2'>
       <h1 className='hed1'>الترم الثاني</h1>
       <div className='container section101'>
@@ -83,6 +87,8 @@ const Secondary1 = () => {
         </div>
       </div>
       </div>
+
+
 
       <div className='section1'>
         <div className='container section101'>
@@ -111,6 +117,8 @@ const Secondary1 = () => {
 
         </div>
       </div>
+
+
 
 
       <div className='section106'>

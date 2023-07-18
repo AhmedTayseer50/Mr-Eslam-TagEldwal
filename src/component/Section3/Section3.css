@@ -83,7 +83,7 @@
 
 /* ================Media for Mediam screen ================= */
 
-@media (max-width: 912px) {
+/* @media (max-width: 912px) {
     .sec1 {
         margin-left: -150px;
     }
@@ -95,9 +95,9 @@
     .check1 {
         margin-top: -22px;
     }
-}
+} */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .sec1 {
         margin-left: -130px;
     }
@@ -105,9 +105,9 @@
     .text10 {
         margin-right: -20px;
     }
-}
+} */
 
-@media (max-width: 425px) {
+/* @media (max-width: 425px) {
     .sec1 {
         margin-left: -60px;
     }
@@ -125,9 +125,9 @@
         margin-top: 20px;
     }
 
-}
+} */
 
-@media (max-width: 375px) {
+/* @media (max-width: 375px) {
     
     .text10 {
         width: 360px;
@@ -147,9 +147,9 @@
         margin-top: -28px;
         font-size: 20px !important;
     }
-}
+} */
 
-@media (max-width: 320px) {
+/* @media (max-width: 320px) {
     .back1 {
         height: 1100px;
     }
@@ -162,9 +162,27 @@
         width: 300px;
     }
 
-}
+} */
 
 
 
 
 /* ================== Media for Mediam screen  =================*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+.back1 {
+    height: 1000px;
+}
+
+.back2 {
+    display: block;
+}
+.sec1 {
+    margin-left: 100px;
+}
+.text10 {
+    width: 500px;
+    margin-left: 150px;
+}
+
+}

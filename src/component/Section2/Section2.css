@@ -130,7 +130,7 @@
     margin-top: 50px;
 }
 
-@media (max-width: 425px) {
+/* @media (max-width: 425px) {
     
 
     .one h5 {
@@ -138,12 +138,35 @@
     }
 
 
-}
+} */
 
-@media (max-width: 320px) {
+/* @media (max-width: 320px) {
     
     .two h4 {
         margin-bottom: -25px;
     }
 
+} */
+
+@media screen and (min-width: 993px) {
+    .one,
+    .two,
+    .three,
+    .four,
+    .five,
+    .six{
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    .one,
+    .two,
+    .three,
+    .four,
+    .five,
+    .six{
+        width: 280px;
+    }
 }
