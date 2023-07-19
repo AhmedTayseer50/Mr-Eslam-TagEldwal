@@ -326,3 +326,38 @@ option {
 
 } */
 
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .icon111 {
+        margin-left: 140px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .parttt202 {
+        display: block;
+    }
+
+    .parttt201 {
+        height: 1150px;   
+        margin-top: -60px; 
+    }
+
+    .parttt203 {
+        width: 250px;
+        margin-left: 10px;
+    }
+
+    .icon111 {
+        margin-left: 110px;
+    }
+
+    .formA10 {
+        width: 280px;
+    }
+    .parttt203 h2 {
+        padding-top: 20px;
+    }
+    .mob {
+        margin-top: 25.5px;
+    }
+}

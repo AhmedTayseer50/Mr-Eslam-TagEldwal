@@ -510,3 +510,59 @@
         width: 300px;
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .section101 {
+        display: block;
+    }
+    .section1 {
+        height: 1200px;
+    }
+
+    .section202 {
+        height: 850px;
+    }
+
+    .section203 {
+        height: 850px;
+    }
+
+    .section213 {
+        height: 850px;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+    .section101 {
+        display: block;
+    }
+    .section1 {
+        height: 1300px;
+    }
+    .imag_101 {
+        width: 290px;
+    }
+    .chapter1,
+    .chapter101,
+    .chapter10A,
+    .chapter10A1 {
+        width: 250px;
+    }
+    .imag_105,
+    .imag_205,
+    .imag_215 {
+        width: 290px;
+    }
+
+    .section202 {
+        height: 900px;
+    }
+
+    .section203 {
+        height: 900px;
+    }
+    .section213 {
+        height: 900px;
+    }
+}

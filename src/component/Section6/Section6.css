@@ -9,8 +9,9 @@
 .part202 {
     display: flex;
     justify-content: space-between;
-   
+
 }
+
 .upp {
     margin-top: 40px;
 }
@@ -21,7 +22,7 @@
     color: white;
 }
 
-.linkpp p{
+.linkpp p {
     color: white;
 }
 
@@ -32,17 +33,17 @@
     color: white;
 }
 
-.part203 h2{
+.part203 h2 {
     text-align: center;
 }
 
 
-.part203 h4{
+.part203 h4 {
     text-align: center;
-    
+
 }
 
-.part203 p{
+.part203 p {
     text-align: center;
 }
 
@@ -148,7 +149,7 @@ form label input:-webkit-autofill {
 input {
     text-align: right;
     color: white;
-    
+
 }
 
 .num {
@@ -339,11 +340,11 @@ option {
 } */
 
 @media screen and (min-width: 993px) {
-    
+
     .icon1 {
         margin-left: 170px;
     }
-    
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -351,20 +352,69 @@ option {
     .icon1 {
         margin-left: 120px;
     }
+
     .form10 {
         width: 400px;
     }
+
     .text {
         width: 350px;
     }
+
     .n2 {
         margin-top: 25.5px;
     }
+
     .part201 {
         height: 800px;
     }
 
 }
 
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+    .part202 {
+        display: block;
+        margin-top: -60px;
+    }
+
+    .part201 {
+        height: 1200px;
+    }
+
+    .part203 h2 {
+        padding-top: 20px;
+    }
+
+}
+
+
+@media screen and (max-width: 575px) {
+    .part202 {
+        display: block;
+    }
+
+    .part201 {
+        height: 1200px;
+    }
+
+    .part203 {
+        width: 250px;
+        margin-left: 10px;
+    }
+    .icon1 {
+        margin-left: 110px;
+    }
+
+    .form10 {
+        width: 250px;
+    }
+    .text {
+        width: 270px;
+    }
+    .n2{
+        margin-top: 25.5px;
+    }
+}
 
 /* ================== Media for Mediam screen  =================*/

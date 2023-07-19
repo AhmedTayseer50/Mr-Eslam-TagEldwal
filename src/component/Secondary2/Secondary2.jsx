@@ -56,6 +56,7 @@ const Secondary2 = () => {
         </div>
       </div>
       <div className='break1'>
+        
         <h1>الترم الثاني</h1>
       </div>
       <div className='section203'>

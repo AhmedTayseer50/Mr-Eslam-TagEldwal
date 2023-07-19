@@ -23,7 +23,7 @@ const Section3 = () => {
 
           <div className='check lef'>
             <h5> خبرة واسعة في تدريس مواد الفيزياء على مستوى المدرسة الثانوية والجامعية</h5>
-            <HiBadgeCheck className='check1' />
+            <HiBadgeCheck className='check1 expe' />
           </div>
 
           <div className='check10'>
@@ -33,7 +33,7 @@ const Section3 = () => {
 
           <div className='check'>
             <h5>الأهتمام بتطوير مهاراتكم في الفيزياء و تأهيلكم للحياه العملية و الأكاديمية المستقبلية </h5>
-            <HiBadgeCheck className='check1001' />
+            <HiBadgeCheck className='check1001 expe1' />
           </div>
 
           <div className='check lef1'>
