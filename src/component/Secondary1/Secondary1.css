@@ -439,7 +439,7 @@
         margin-top: -160px;
     }
     .section106 {
-        height: 1200px;
+        height: 1100px;
     }
 }
 
@@ -448,11 +448,12 @@
         display: block;
     }
     .section1 {
-        height: 1200px;
+        height: 1100px;
     }
 
     .imag_101 {
         width: 290px;
+        height: 300px;
     }
 
     .chapter1 {
@@ -463,7 +464,7 @@
         margin-top: -160px;
     }
     .section106 {
-        height: 1300px;
+        height: 1100px;
     }
 
     .chapter10,
@@ -474,4 +475,61 @@
     .semester2 {
         height: 550px;
     }
+
+    .son1 {
+        top: 39%;
+        left: 30%;
+    }
+    
+    .son2 {
+        top: 51.5%;
+        left: 26%;
+        font-size: 15px;
+    }
+    
+    .son3 {
+        top: 59.5%;
+        left: 10%;
+        font-size: 15px;
+    }
+
+    .son10 {
+        top: 50%;
+        left: 28%;
+    }
+    
+    .son20 {
+        top: 65%;
+        left: 10%;
+        font-size: 15px;
+    }
+
+    .son105 {
+        top: 50%;
+        left: 28%;
+    }
+    
+    .son205 {
+        top: 65%;
+        left: 10%;
+        font-size: 15px;
+    }
+
+    .son106 {
+        top: 50%;
+        left: 29%;
+    }
+    
+    .son206 {
+        top: 65%;
+        left: 10%;
+        font-size: 15px;
+    }
+    
+    .son306 {
+        top: 73%;
+        left: 10%;
+        font-size: 15px;
+    }
+
 }

@@ -538,31 +538,82 @@
         display: block;
     }
     .section1 {
-        height: 1300px;
+        height: 1100px;
     }
-    .imag_101 {
-        width: 290px;
-    }
+   
     .chapter1,
     .chapter101,
     .chapter10A,
     .chapter10A1 {
         width: 250px;
     }
+    .imag_101,
     .imag_105,
     .imag_205,
     .imag_215 {
         width: 290px;
+        height: 300px;
     }
 
     .section202 {
-        height: 900px;
+        height: 750px;
     }
 
     .section203 {
-        height: 900px;
+        height: 750px;
     }
     .section213 {
-        height: 900px;
+        height: 750px;
     }
+
+    .son160 {
+        top: 50%;
+        left: 32%;
+        font-size: 20px;
+    }
+    
+    .son260 {
+        top: 65%;
+        left: 15%;
+        font-size: 15px;
+    }
+
+    .son101 {
+        font-size: 20px;
+        top: 50%;
+        left: 34%;
+    }
+    
+    .son201 {
+        top: 65%;
+        left: 15%;
+        font-size: 15px;
+    }
+
+    .sonA {
+        top: 50%;
+        left: 33%;
+        font-size: 20px;
+    }
+    
+    .sonB {
+        top: 65%;
+        left: 15%;
+        font-size: 15px;
+    }
+
+    .sonA1 {
+        top: 50%;
+        left: 33%;
+        font-size: 20px;
+    }
+    
+    .sonB1 {
+        top: 65%;
+        left: 15%;
+        font-size: 15px;
+    }
+
+
+
 }

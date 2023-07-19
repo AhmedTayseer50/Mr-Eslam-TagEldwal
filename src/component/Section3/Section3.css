@@ -248,3 +248,10 @@
     }
 
 }
+
+@media screen and (max-width: 575px) {
+
+    .back1 {
+        height: 1000px;
+    }
+}
