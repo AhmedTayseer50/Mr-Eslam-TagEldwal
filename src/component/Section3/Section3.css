@@ -212,9 +212,8 @@
     }
 
     .sec1 img {
-        position: relative;
         width: 250px;
-        margin-left: 10px;
+        margin-left: 50px;
         margin-top: 20px;
     } 
     
@@ -229,8 +228,8 @@
         left: 50px;
     }
     .text10 {
-        width: 280px;
-        margin-left: 40px;
+        width: 300px;
+        margin-left: 80px;
     }
     .lef1 {
         margin-left: 0px;

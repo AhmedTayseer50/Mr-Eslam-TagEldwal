@@ -204,289 +204,7 @@
 }
 
 
-/* @media (max-width: 912px) {
 
-    .section101 {
-        display: block;
-    }
-
-    .section1 {
-        height: 1200px;
-    }
-
-    .section202 {
-        height: 850px;
-    }
-
-    .section203 {
-        height: 850px;
-    }
-
-    .section213 {
-        height: 850px;
-    }
-
-    .son160 {
-        position: absolute;
-        top: 51%;
-        left: 32%;
-    }
-
-    .son260 {
-        position: absolute;
-        top: 62%;
-        left: 28%;
-    }
-
-    .son101 {
-        position: absolute;
-        top: 52.5%;
-        left: 33%;
-    }
-
-    .son201 {
-        position: absolute;
-        top: 63.5%;
-        left: 29%;
-    }
-
-    .sonA {
-        position: absolute;
-        top: 52.5%;
-        left: 33%;
-    }
-
-    .sonB {
-        position: absolute;
-        top: 64%;
-        left: 29%;
-    }
-
-    .sonA1 {
-        position: absolute;
-        top: 52.5%;
-        left: 33%;
-    }
-
-    .sonB1 {
-        position: absolute;
-        top: 65%;
-        left: 29%;
-
-    }
-
-} */
-
-/* @media (max-width: 425px) {
-    .imag_101 {
-        width: 410px;
-        height: 400px;
-    }
-
-    .chapter1 {
-        width: 350px;
-    }
-
-    .chapter10 {
-        width: 350px;
-    }
-
-    .chapter101 {
-        width: 350px;
-    }
-
-    .imag_105 {
-        width: 410px;
-        height: 400px;
-    }
-
-    .imag_205 {
-        width: 410px;
-        height: 400px;
-    }
-
-    .imag_215 {
-        width: 410px;
-        height: 400px;
-    }
-
-    .chapter101 {
-        width: 350px;
-    }
-
-    .chapter10A {
-        width: 350px;
-    }
-
-    .chapter10A1 {
-        width: 350px;
-    }
-
-    .son160 {
-        position: absolute;
-        top: 52%;
-        left: 34%;
-    }
-
-    .son260 {
-        position: absolute;
-        top: 62.5%;
-        left: 25%;
-    }
-
-    .son101 {
-        position: absolute;
-        top: 51%;
-        left: 34%;
-    }
-
-    .son201 {
-        position: absolute;
-        top: 63.5%;
-        left: 24%;
-    }
-
-    .sonA {
-        position: absolute;
-        top: 47%;
-        left: 34%;
-    }
-
-    .sonB {
-        position: absolute;
-        top: 59%;
-        left: 25%;
-    }
-
-    .sonA1 {
-        position: absolute;
-        top: 52.5%;
-        left: 35%;
-    }
-
-    .sonB1 {
-        position: absolute;
-        top: 65%;
-        left: 26%;
-    }
-} */
-
-/* @media (max-width: 375px) {
-    .imag_101 {
-        width: 365px;
-
-    }
-    .chapter1 {
-        width: 300px;
-    }
-
-    .son101 {
-        left: 39%;
-    }
-
-    .son201 {
-        left: 27%;
-    }
-    .chapter101 {
-        width: 300px;
-    }
-
-    .imag_205 {
-        width: 355px;
-
-    }
-
-    .sonB {
-        top: 59.5%;
-        left: 22%;
-    }
-    .chapter10A {
-        width: 300px;
-    }
-
-    .chapter10A1 {
-        width: 300px;
-    }
-    .imag_215 {
-        width: 370px;
-
-    }
-    
-} */
-
-/* @media (max-width: 320px) {
-    .imag_101 {
-        width: 300px;
-
-    }
-    
-    .imag_105 {
-        width: 300px;
-    }
-    .chapter1 {
-        width: 270px;
-    }
-
-    .son101 {
-        left: 30%;
-    }
-
-    .son201 {
-        left: 15%;
-    }
-    .chapter101 {
-        width: 270px;
-    }
-
-    .imag_205 {
-        width: 300px;
-
-    }
-
-    .sonA {
-        left: 30.5%;
-        top: 47.5%;
-    }
-
-    .sonB {
-        left: 15%;
-    }
-    .chapter10A {
-        width: 270px;
-    }
-
-    .chapter10A1 {
-        width: 270px;
-    }
-    .imag_215 {
-        width: 300px;
-
-    }
-
-    .son160 {
-        top: 52%;
-        left: 30%;
-    }
-    
-    .son260 {
-        top: 62.5%;
-        left: 15%;
-    }
-
-    .sonA1 {
-        top: 53%;
-        left: 30%;
-    }
-
-    .sonB1 {
-        left: 15%;
-    }
-
-    .chapter10 {
-        width: 250px;
-    }
-    
-} */
 
 @media screen and (min-width: 993px) {
     
@@ -532,6 +250,66 @@
     }
 
 }
+
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .section101 {
+        display: block;
+    }
+    .section1 {
+        height: 1200px;
+    }
+    .section202,
+    .section203,
+    .section213 {
+        height: 850px;
+    }
+    .imag_101,
+    .imag_205,
+    .imag_215 {
+        width: 500px;
+        height: 450px;
+    }
+
+    .son160 {
+        top: 51.25%;
+    }
+    
+    .son260 {
+        top: 62%;
+        left: 30%;
+    }
+
+    .son101 {
+        top: 44%;
+        left: 45%;
+    }
+    
+    .son201 {
+        top: 57%;
+        left: 38%;
+    }
+    .sonA {
+        top: 44%;
+        left: 35%;
+    }
+    
+    .sonB {
+        top: 60%;
+        left: 29%;
+    }
+
+    .sonA1 {
+        top: 42%;
+        left: 35%;
+    }
+    
+    .sonB1 {
+        top: 54%;
+        left: 28%;
+    }
+}
+
 
 @media screen and (max-width: 575px) {
     .section101 {

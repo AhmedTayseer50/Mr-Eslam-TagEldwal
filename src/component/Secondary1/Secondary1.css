@@ -186,186 +186,7 @@
 }
 
 
-/* @media (min-width: 992px) {
 
-    .section101 {
-        display: block;
-    }
-
-    .section1 {
-        height: 1200px;
-    }
-
-    .section2 {
-        height: 1500px;
-        margin-top: -160px;
-    }
-
-    .section106 {
-        height: 1170px;
-    }
-
-    .son10 {
-        position: absolute;
-        top: 50.5%;
-        left: 35%;
-    }
-
-    .son20 {
-        position: absolute;
-        top: 62%;
-        left: 28%;
-    }
-
-    .son105 {
-        position: absolute;
-        top: 49.5%;
-        left: 32%;
-    }
-
-    .son205 {
-        top: 63.5%;
-        left: 26%;
-    }
-
-    .son106 {
-        top: 50%;
-        left: 35%;
-    }
-
-    .son206 {
-        top: 63.5%;
-        left: 28%;
-    }
-
-    .son306 {
-        top: 70.5%;
-        left: 28%;
-    }
-} */
-
-/* @media (max-width: 768px){
-    .imag_101 {
-        width: 410px;
-        height: 400px;
-    }
-
-    .chapter1 {
-        width: 350px;
-    }
-
-    .chapter10 {
-        width: 350px;
-    }
-
-    .chapter101 {
-        width: 350px;
-    }
-
-    .son1 {
-        position: absolute;
-        top: 39%;
-        left: 35%;
-    }
-
-    .son2 {
-        position: absolute;
-        top: 51%;
-        left: 25.5%;
-    }
-
-    .son3 {
-        position: absolute;
-        top: 59%;
-        left: 20%;
-    }
-
-    .son10 {
-        top: 51.5%;
-        left: 33%;
-    }
-
-    .son20 {
-        top: 66.5%;
-        left: 22%;
-    }
-
-    .son105 {
-        top: 50%;
-        left: 32%;
-    }
-
-    .son205 {
-        top: 64%;
-        left: 22%;
-    }
-
-    .son206 {
-        position: absolute;
-        top: 64%;
-        left: 20%;
-    }
-
-    .son306 {
-        position: absolute;
-        top: 71%;
-        left: 22%;
-    }
-} */
-
-/* @media (min-width: 576) {
-    .son1 {
-        top: 39.5%;
-        left: 30%;
-    }
-    
-    .son2 {
-        top: 53%;
-        left: 28%;
-        font-size: 15px;
-        
-    }
-    
-    .son3 {
-        top: 60.5%;
-        left: 10%;
-        font-size: 15px;
-    }
-
-    .son10 {
-        top: 51.5%;
-        left: 30%;
-    }
-
-    .son20 {
-        top: 66.5%;
-        left: 10%;
-    }
-    .son105 {
-        left: 28%;
-    }
-
-    .son205 {
-        top: 64.5%;
-        left: 10%;
-    }
-    .son106 {
-        left: 29%;
-    }
-
-    .son206 {
-        top: 62.5%;
-        left: 10%;
-        font-size: 15px;
-    }
-
-    .son306 {
-        top: 69%;
-        left: 10%;
-        font-size: 15px;
-    }
-
-} */
 
 @media screen and (min-width: 993px) {
     
@@ -442,6 +263,68 @@
         height: 1100px;
     }
 }
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .section101 {
+        display: block;
+    }
+    .section1 {
+        height: 1200px;
+    }
+    .sssss10 {
+        margin-top: -160px;
+    }
+    .section2 {
+        height: 1500px;
+    }
+
+    .section106 {
+        height: 1200px;
+    }
+
+    .imag_101 {
+        width: 500px;
+        height: 450px;
+    }
+
+    .son3 {
+        left: 25%;
+    }
+
+    .son10 {
+        top: 51%;
+        left: 32%;
+    }
+    
+    .son20 {
+        top: 62.5%;
+        left: 24%;
+
+    }
+    
+    .son105 {
+        top: 49.5%;
+    }
+    .son205 {
+        top:60.75% ;
+        left: 26%;
+    }
+
+    .son106 {
+        top: 46%;
+    }
+    
+    .son206 {
+        top: 57%;
+        left: 25%;
+    }
+    
+    .son306 {
+        top: 64%;
+    }
+
+}
+
 
 @media screen and (max-width: 575px) {
     .section101 {

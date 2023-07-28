@@ -38,7 +38,7 @@ const Secondary1 = () => {
 
 
       <div className='section2'>
-        <div className='container section101'>
+        <div className='container section101 sssss10'>
 
           <div className='father3'>
             <img src="/images/خلفيات\الباب الثاني-0١.png" alt="" className='imag_101' />

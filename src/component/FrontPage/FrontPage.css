@@ -174,4 +174,17 @@ button:hover:after {
     .context {
         margin-right: 50px;
     }
+
+    .succc {
+        margin-top: 170px;
+        margin-right: 150px;
+    }
+    .success {
+        margin-right:150px ;
+    }
+
+    .btn {
+        margin-top: 30px;
+        margin-right: 200px;
+    }
 }
