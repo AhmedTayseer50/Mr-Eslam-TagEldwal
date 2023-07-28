@@ -8,6 +8,7 @@ import { BsFillTelephoneFill } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 
 import Navbar2 from '../Navbar2/Navbar2'; 
+import Footer from '../../Footer/Footer';
 
 
 
@@ -114,6 +115,7 @@ const Contact = () => {
 
         </div>
       </div>
+      <Footer />
     </div>
   )
 }

@@ -233,6 +233,8 @@ option {
 /* button end */
 
 
+
+
 /* ================Media for Mediam screen ================= */
 
 
@@ -392,6 +394,7 @@ option {
 @media screen and (max-width: 575px) {
     .part202 {
         display: block;
+        margin-left: 40px;
     }
 
     .part201 {

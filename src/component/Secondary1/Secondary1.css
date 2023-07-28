@@ -446,6 +446,7 @@
 @media screen and (max-width: 575px) {
     .section101 {
         display: block;
+        margin-left: 30px;
     }
     .section1 {
         height: 1100px;
@@ -477,58 +478,58 @@
     }
 
     .son1 {
-        top: 39%;
-        left: 30%;
+        top: 40.5%;
+        left: 25%;
     }
     
     .son2 {
-        top: 51.5%;
-        left: 26%;
+        top: 53.5%;
+        left: 22%;
         font-size: 15px;
     }
     
     .son3 {
-        top: 59.5%;
-        left: 10%;
+        top: 61.5%;
+        left: 8%;
         font-size: 15px;
     }
 
     .son10 {
         top: 50%;
-        left: 28%;
+        left: 23%;
     }
     
     .son20 {
         top: 65%;
-        left: 10%;
+        left: 8%;
         font-size: 15px;
     }
 
     .son105 {
-        top: 50%;
-        left: 28%;
+        top: 51.5%;
+        left: 23%;
     }
     
     .son205 {
-        top: 65%;
-        left: 10%;
+        top: 66%;
+        left: 8%;
         font-size: 15px;
     }
 
     .son106 {
-        top: 50%;
-        left: 29%;
+        top: 51.5%;
+        left: 24%;
     }
     
     .son206 {
-        top: 65%;
-        left: 10%;
+        top: 66.5%;
+        left: 8%;
         font-size: 15px;
     }
     
     .son306 {
         top: 73%;
-        left: 10%;
+        left: 8%;
         font-size: 15px;
     }
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar2 from '../Navbar2/Navbar2'
 import './Secondary2.css'
+import Footer from '../../Footer/Footer'
 
 const Secondary2 = () => {
   return (
@@ -104,6 +105,7 @@ const Secondary2 = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </section>
   )
 }

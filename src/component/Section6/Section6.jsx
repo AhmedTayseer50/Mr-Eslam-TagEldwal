@@ -6,6 +6,7 @@ import { ImWhatsapp } from 'react-icons/im';
 import { AiOutlineYoutube } from 'react-icons/ai';
 import { BsFillTelephoneFill } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
+import Footer from '../../Footer/Footer';
 
 const Section6 = () => {
     const form = useRef();
@@ -74,7 +75,7 @@ const Section6 = () => {
                             </label>
                             <label class="col-one-half">
                                 <span class="label-text"  >المحافظة</span>
-                                <input type="text"  name="governorate" />
+                                <input type="text" name="governorate" />
                             </label>
                         </div>
                         <div>
@@ -100,8 +101,8 @@ const Section6 = () => {
                         </button>
                     </form>
                 </div>
-
             </div>
+            <Footer/>
         </div>
     )
 }

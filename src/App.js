@@ -8,6 +8,7 @@ import Home from "../src/component/Home/Home"
 import Contact from "../src/component/Contact/Contact"
 import Secondary1 from "../src/component/Secondary1/Secondary1"
 import Secondary2 from "../src/component/Secondary2/Secondary2"
+import Footer from "../src/Footer/Footer"
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Route path='/Contact' element={<Contact/>} />
       <Route path='/Secondary1' element={<Secondary1/>} />
       <Route path='/Secondary2' element={<Secondary2/>} />
+      <Route path='/Footer' element={<Footer/>} />
 
     </Routes>
     
