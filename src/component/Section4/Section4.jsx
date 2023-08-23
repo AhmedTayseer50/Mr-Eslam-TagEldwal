@@ -60,6 +60,7 @@ const Section4 = () => {
             activeIndex={activeIndex}
             next={next}
             previous={previous}
+            className='back'
         >
             <CarouselIndicators
                 items={items}
@@ -71,11 +72,13 @@ const Section4 = () => {
                 direction="prev"
                 directionText="Previous"
                 onClickHandler={previous}
+                className='color'
             />
             <CarouselControl
                 direction="next"
                 directionText="Next"
                 onClickHandler={next}
+                className='color'
             />
         </Carousel>
     );
